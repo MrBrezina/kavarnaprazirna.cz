@@ -1,0 +1,175 @@
+/**base colors
+ *
+ * orange #fcb315  
+ * brick  #e97527
+ * brown  #360e05
+ * white #fff 
+ * black #000 
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700italic|Jockey+One&subset=latin,latin-ext);
+ 
+ /*
+ *  bg define somewhere else
+ **/ 
+ body{
+  background-color: #ffffff;
+  
+  width: 624px;
+
+  font-size: 1em;
+  line-height: 1.313em;  
+  font-family: 'Noticia Text', serif;
+  color: #000;
+}
+
+/*
+* logo and language button, and main title
+*/
+
+#layout-para h1 {
+  display: none; 
+}
+
+#layout-para {
+  padding: 18px 16px 0px 16px;
+  width: 192px;
+  position: fixed;
+}
+
+#layout-para > a {
+    background-image: url("../img/white-90.png");
+    display: block;
+    padding: 28px 32px 30px 32px;
+}
+
+
+#layout-para .language > a {
+  display: block;
+  padding: 10px 16px 10px 32px;
+  margin-top: 16px;
+  
+  background-color: #360e05;
+
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: italic;
+
+  filter: alpha(opacity=75);
+  opacity: 0.75;
+
+}
+
+#layout-para .language > a:hover {
+  filter: alpha(opacity=100);
+  opacity: 1;  
+}
+
+
+/*
+* content
+*/
+#layout-content {
+  width: 400px;
+  display: block;
+  float: right;
+  margin-top: 18px;
+}
+
+#layout-content figure{
+  filter: alpha(opacity=90);
+  opacity: 0.90;
+} 
+
+#layout-content figure:hover{
+  filter: alpha(opacity=100);
+  opacity: 1;
+}  
+
+
+#layout-content figcaption {
+  background-color: #fcb315;
+  margin: -5px 0px 16px 0px;
+  color: #000;
+  padding: 8px 32px;
+  display: block;
+}
+
+#layout-content figure a {
+  text-decoration: none;
+}
+
+
+
+
+/*
+* modules
+*/  
+.intro, .casual{
+  padding: 32px;
+  background-image: url('../img/white-90.png');
+  margin-bottom: 16px;
+  
+}
+
+.intro h2 {
+  font-family: 'Jockey One',sans-serif;
+  font-size: 2.09rem;
+  line-height: 1em;
+  margin-bottom: 0.73rem;  
+}
+    
+    
+.intro i, .casual i{
+    font-style: italic;
+}
+.intro em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.casual h2 {
+  font-family: 'Jockey One',sans-serif;
+  font-size: 1.25em;
+  line-height: 1.1em;
+  margin-bottom: 0.5em;
+}
+.casual dt {
+    float: left;
+    width: 5em;
+    font-style: italic;
+}
+.casual dl {
+    margin-bottom: 0.5em;
+} 
+
+.intro a, .casual a {
+  color: #e97527; 
+}
+
+.intro a:visited, .casual a:visited {
+  color: #360e05; 
+}
+
+.intro a:hover, .casual a:hover{
+  background-color: #e97527;
+  color: #fff;
+  text-decoration: none;  
+}   
+
+.contact address, .contact dl{
+    font-size: 0.75rem;
+    line-height: 1.25;
+    margin-bottom: 1em;
+}
+
+.contact p{
+    font-size: 0.75rem;
+    line-height: 1.25;
+}
+
+.contact p.single-info{
+  margin-bottom: 1em;
+} 
+
